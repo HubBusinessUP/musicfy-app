@@ -1,4 +1,4 @@
 {
-  "musicfy": { "versionCode": 64, "versionName": "1.0.64", "apk": "musicfy.apk", "date": "19/11/2026", "notes": "Fix audio Auto: niente doppio avvio del vocale che mutava la radio" },
-  "gabbofy": { "versionCode": 64, "versionName": "1.0.64", "apk": "gabbofy.apk", "date": "19/11/2026", "notes": "Fix audio Auto: niente doppio avvio del vocale che mutava la radio" }
+  "musicfy": { "versionCode": 65, "versionName": "1.0.65", "apk": "musicfy.apk", "date": "19/11/2026", "notes": "Home: sezioni a griglia di icone + equalizer animato in riproduzione" },
+  "gabbofy": { "versionCode": 65, "versionName": "1.0.65", "apk": "gabbofy.apk", "date": "19/11/2026", "notes": "Home: sezioni a griglia di icone + equalizer animato in riproduzione" }
 }
