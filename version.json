@@ -1,4 +1,4 @@
 {
-  "musicfy": { "versionCode": 67, "versionName": "1.0.67", "apk": "musicfy.apk", "date": "19/11/2026", "notes": "Fix compilazione: padding del banner Musica con start/end invece di horizontal" },
-  "gabbofy": { "versionCode": 67, "versionName": "1.0.67", "apk": "gabbofy.apk", "date": "19/11/2026", "notes": "Fix compilazione: padding del banner Musica con start/end invece di horizontal" }
+  "musicfy": { "versionCode": 68, "versionName": "1.0.68", "apk": "musicfy.apk", "date": "19/11/2026", "notes": "Home: Ascoltati di recente a lista verticale invece del rail" },
+  "gabbofy": { "versionCode": 68, "versionName": "1.0.68", "apk": "gabbofy.apk", "date": "19/11/2026", "notes": "Home: Ascoltati di recente a lista verticale invece del rail" }
 }
