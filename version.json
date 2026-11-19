@@ -1,4 +1,4 @@
 {
-  "musicfy": { "versionCode": 62, "versionName": "1.0.62", "apk": "musicfy.apk", "date": "19/11/2026", "notes": "Test auto-update: nuovo testo barra ricerca" },
-  "gabbofy": { "versionCode": 62, "versionName": "1.0.62", "apk": "gabbofy.apk", "date": "19/11/2026", "notes": "Test auto-update: nuovo testo barra ricerca" }
+  "musicfy": { "versionCode": 63, "versionName": "1.0.63", "apk": "musicfy.apk", "date": "19/11/2026", "notes": "Home nuova: ricerca globale, In riproduzione ora, lista sezioni, Corsi" },
+  "gabbofy": { "versionCode": 63, "versionName": "1.0.63", "apk": "gabbofy.apk", "date": "19/11/2026", "notes": "Home nuova: ricerca globale, In riproduzione ora, lista sezioni, Corsi" }
 }
