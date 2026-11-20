@@ -1,4 +1,4 @@
 {
-  "musicfy": { "versionCode": 70, "versionName": "1.0.70", "apk": "musicfy.apk", "date": "20/11/2026", "notes": "Fix build: rinomino object Track in Ping (collisione con data class Track)" },
-  "gabbofy": { "versionCode": 70, "versionName": "1.0.70", "apk": "gabbofy.apk", "date": "20/11/2026", "notes": "Fix build: rinomino object Track in Ping (collisione con data class Track)" }
+  "musicfy": { "versionCode": 71, "versionName": "1.0.71", "apk": "musicfy.apk", "date": "20/11/2026", "notes": "Ricerca: suggerimenti live (autocomplete) mentre si scrive, da YouTube" },
+  "gabbofy": { "versionCode": 71, "versionName": "1.0.71", "apk": "gabbofy.apk", "date": "20/11/2026", "notes": "Ricerca: suggerimenti live (autocomplete) mentre si scrive, da YouTube" }
 }
