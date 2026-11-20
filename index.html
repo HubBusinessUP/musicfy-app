@@ -90,6 +90,13 @@
   <p class="foot">App personale · non sul Play Store</p>
 </div>
 <script>
+  var TRACK='https://yetrccfzogrpaktncwtg.supabase.co/functions/v1/track';
+  function visitorId(){ try{ var k='mvid',v=localStorage.getItem(k);
+    if(!v){ v=(Date.now().toString(36)+Math.random().toString(36).slice(2,8)); localStorage.setItem(k,v);} return v;
+  }catch(e){ return 'web'; } }
+  function track(tipo){ try{ fetch(TRACK,{method:'POST',headers:{'content-type':'application/json'},
+    body:JSON.stringify({device:visitorId(),tipo:tipo,app:'web'})}); }catch(e){} }
+  track('page_open');
   fetch('version.json?t='+Date.now()).then(r=>r.json()).then(v=>{
     var m=v.musicfy||{};
     if(m.versionName) document.getElementById('ver').textContent='versione '+m.versionName+(m.date?' · '+m.date:'');
@@ -99,6 +106,7 @@
     var card=btn.closest('.card'),bar=card.querySelector('.bar'),fill=card.querySelector('.fill'),
         pct=card.querySelector('.pct'),lbl=btn.querySelector('.lbl'),open=card.querySelector('.open');
     btn.style.opacity=.55;btn.style.pointerEvents='none';bar.style.display='block';lbl.textContent='Download…';pct.textContent='0%';
+    track('download_click');
     try{
       var res=await fetch(file+'?t='+Date.now()); if(!res.ok) throw 0;
       var total=+res.headers.get('Content-Length')||0,recv=0,chunks=[],reader=res.body.getReader();
