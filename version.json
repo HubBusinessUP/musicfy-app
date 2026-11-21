@@ -1,4 +1,4 @@
 {
-  "musicfy": { "versionCode": 75, "versionName": "1.0.75", "apk": "musicfy.apk", "date": "21/11/2026", "notes": "Fix compilazione SortBar: padding con overload valido" },
-  "gabbofy": { "versionCode": 75, "versionName": "1.0.75", "apk": "gabbofy.apk", "date": "21/11/2026", "notes": "Fix compilazione SortBar: padding con overload valido" }
+  "musicfy": { "versionCode": 76, "versionName": "1.0.76", "apk": "musicfy.apk", "date": "21/11/2026", "notes": "Riordino a mano dei brani di una playlist" },
+  "gabbofy": { "versionCode": 76, "versionName": "1.0.76", "apk": "gabbofy.apk", "date": "21/11/2026", "notes": "Riordino a mano dei brani di una playlist" }
 }
