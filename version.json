@@ -1,4 +1,4 @@
 {
-  "musicfy": { "versionCode": 76, "versionName": "1.0.76", "apk": "musicfy.apk", "date": "21/11/2026", "notes": "Riordino a mano dei brani di una playlist" },
-  "gabbofy": { "versionCode": 76, "versionName": "1.0.76", "apk": "gabbofy.apk", "date": "21/11/2026", "notes": "Riordino a mano dei brani di una playlist" }
+  "musicfy": { "versionCode": 77, "versionName": "1.0.77", "apk": "musicfy.apk", "date": "21/11/2026", "notes": "Playlist automatiche: Aggiunti di recente, Più ascoltati, Scoperte" },
+  "gabbofy": { "versionCode": 77, "versionName": "1.0.77", "apk": "gabbofy.apk", "date": "21/11/2026", "notes": "Playlist automatiche: Aggiunti di recente, Più ascoltati, Scoperte" }
 }
